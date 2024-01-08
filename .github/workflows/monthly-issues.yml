@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          TITLE: Team sync
+          TITLE: Monthly Issue
           ASSIGNEES: pawalker99
           LABELS: monthly,operations
           BODY: |
