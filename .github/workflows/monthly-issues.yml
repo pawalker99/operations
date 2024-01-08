@@ -1,7 +1,5 @@
 name: Monthly Operations Tasks
-on:
-  schedule:
-    - cron: 0 0 1 * *
+on: workflow_dispatch
 
 jobs:
   create_issue:
